@@ -12,6 +12,7 @@ namespace _9_17_inclass
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Please enter your favorite baseball team?");
             string answer = Console.ReadLine().ToUpper().Trim(); // Trim takes the spaces out of it
             string nextAnswer = "Somethine else";
@@ -24,7 +25,6 @@ namespace _9_17_inclass
             }
 
             Console.WriteLine($"Your favorite team has {answer.Length} characters in it");
-
 
 
 
